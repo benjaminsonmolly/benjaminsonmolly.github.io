@@ -1,0 +1,78 @@
+body{
+  background: linear-gradient(#e0ffcd, #fdffcd, #e0ffcd);
+  background-size: 5000px;
+}
+
+h1 {
+  font-family: Palatino, Geneva;
+  text-align: center;
+  color:
+  font-family: 'Chicle', cursive;
+  letter-spacing: 1.5px;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 32px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+div {
+  padding-top: 50px;
+}
+
+img {
+  opacity: 0.4;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+p {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.awesome {
+      font-family: 'Chicle', cursive;
+      width:100%;
+
+      margin: 0 auto;
+      text-align: center;
+
+      color:#313131;
+      font-size:72px;
+      -webkit-animation:colorchange 5s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #fb9a40;
+  }
+
+  25% {
+    color: #fbd341;
+  }
+
+  50% {
+    color: #ff6473;
+  }
+
+  75% {
+    color: #FFD700;
+  }
+
+  100% {
+    color: #a3f3eb;
+  }
+}
