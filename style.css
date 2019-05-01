@@ -9,7 +9,7 @@ nav a {
   display: inline-block;
   float: right;
   font-family: 'Inconsolata', monospace;
-  font-size: 15px;
+  font-size: 16px;
   color: white;
   padding-top: 20px;
   padding-right: 20px;
@@ -29,7 +29,7 @@ nav a {
 
 h1 {
   font-family: 'Inconsolata', monospace;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   color: #3d3d3d;
   padding-top: 20px;
@@ -38,7 +38,7 @@ h1 {
 
 p {
   font-family: 'Inconsolata', monospace;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   color: #3d3d3d;
   padding-left: 10px;
@@ -46,7 +46,7 @@ p {
 
 ul {
   font-family: 'Inconsolata', monospace;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   color: #3d3d3d;
   list-style-type: cjk-ideographic;
