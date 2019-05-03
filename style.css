@@ -53,15 +53,6 @@ ul {
   padding-left: 50px;
 }
 
-/* .fade
-{
-        opacity:0.75;
-}
-.fade:hover
-{
-        opacity:1;
-} */
-
 .flicker {
 	-webkit-animation: flicker 8s linear infinite both;
 	        animation: flicker 8s linear infinite both;
@@ -646,6 +637,15 @@ ul {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+.logo-dark {
+  font-family: 'Inconsolata', monospace;
+  font-size: 28px;
+  color: #3d3d3d;
+  letter-spacing: -1px;
+  float: left;
+  padding-top: 15px;
 }
