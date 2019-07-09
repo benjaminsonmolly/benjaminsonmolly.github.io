@@ -4,17 +4,56 @@
     <link rel= "stylesheet" href= "style.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/yw_favicon.png"/>
-    <title>benjaminsonmolly ONE-A-DAY</title>
+    <title>benjaminsonmolly 30[ish] dAEs</title>
     <nav>
-      <a id="logo" href="index.html" class= "logo-dark">benjaminsonmolly | <span style="font-weight:700; letter-spacing: 0;">PORTFOLIO</span></a>
+      <a id="logo" href="index.html" class= "logo-dark">benjaminsonmolly | <span style="font-weight:700; letter-spacing: 0;">DESIGN</span></a>
       <a href="resume.html" class="nav-color">resume</a>
       <a href="about.html" class="nav-color">about</a>
-      <a href="one_a_day.html" class="nav-color">one-a-day</a>
+      <a href="one_a_day.html" class="nav-color">30[ish] dAEs</a>
     </nav>
   </head>
   <body class = "dark-mode">
-    <h1 class = "dark-mode">what am i doing today?</h1>
-    <p class = "dark-mode">faking it.</p>
+    <button class="accordion">|| day one ||</button>
+    <div class="panel">
+      <p class = "dark-mode">thanks Justin Odisho: <a href="https://www.youtube.com/watch?v=3XJt9uXwMwM" class="inline-link-dark">original video</a></p>
+      <p class = "dark-mode">difficulty: 1/3</p>
+      <img src="img/day_one/day1_2.gif" alt="day one part one">
+      <p class = "dark-mode">time so far: 30 minutes</p>
+      <p class = "dark-mode">Got the titles added- having trouble with the tools and adjusting sizes and getting everything centered. Here's the first animation and mask. Still very basic, but I get how it works. It’s so customizable.</p>
+      <img src="img/day_one/day1_3.gif" alt="day one part two">
+      <p class = "dark-mode">time so far: 5 minutes</p>
+      <p class = "dark-mode">Getting quicker! Followed the same steps for the other side of the line. Feeling a little cocky.</p>
+      <img src="img/day_one/day1_4.gif" alt="day one part three">
+      <p class = "dark-mode">time so far: 11 minutes</p>
+      <p class = "dark-mode">And done! Added the animation to the line and copied the keyframes (flipping them) to get the animation to end. Pretty happy with the final result- it’s simple, but I have to start somewhere. Sped up a little with a cute background and some little sound effect, and it could work! </p>
+    </div>
+
+    <button class="accordion">|| day two ||</button>
+    <div class="panel">
+      <p class="dark-mode">tbd</p>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+      this.classList.toggle("active");
+
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+    }
+    </script>
+
     <img src="img/darkmode_on.png" alt="dark mode on" class="dark-toggle">
   </body>
 </html>
